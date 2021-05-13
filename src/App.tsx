@@ -52,7 +52,6 @@ class App extends React.Component<React.HTMLAttributes<HTMLCanvasElement>,
         this.scene?.detachControl();
         (this.engine!).inputElement = this.canvas1!
         this.scene?.attachControl();
-
     }
 
     enableCanvas2() {
